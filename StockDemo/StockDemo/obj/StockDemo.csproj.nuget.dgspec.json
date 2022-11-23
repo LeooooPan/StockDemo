@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj": {}
+    "C:\\Users\\LaoPa\\OneDrive\\桌面\\新增資料夾\\StockDemo\\StockDemo\\StockDemo\\StockDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj": {
+    "C:\\Users\\LaoPa\\OneDrive\\桌面\\新增資料夾\\StockDemo\\StockDemo\\StockDemo\\StockDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+        "projectUniqueName": "C:\\Users\\LaoPa\\OneDrive\\桌面\\新增資料夾\\StockDemo\\StockDemo\\StockDemo\\StockDemo.csproj",
         "projectName": "StockDemo",
-        "projectPath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+        "projectPath": "C:\\Users\\LaoPa\\OneDrive\\桌面\\新增資料夾\\StockDemo\\StockDemo\\StockDemo\\StockDemo.csproj",
         "packagesPath": "C:\\Users\\LaoPa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\obj\\",
+        "outputPath": "C:\\Users\\LaoPa\\OneDrive\\桌面\\新增資料夾\\StockDemo\\StockDemo\\StockDemo\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

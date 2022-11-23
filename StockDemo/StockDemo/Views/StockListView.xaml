@@ -39,11 +39,11 @@
                   Style="{StaticResource ListViewStyle}" Margin="20,10">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Width="140">
+                    <GridViewColumn Width="150">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Border Height="40" Width="140" Margin="-10,0,0,0" BorderThickness="0,0,0,1" BorderBrush="#7FFFFFFF">
-                                    <TextBlock Margin="40,10,20,0" Text="{Binding Name}" Foreground="#FFD1B074"/>
+                                    <TextBlock Margin="30,10,0,0" Text="{Binding Name}" Foreground="#FFD1B074"/>
                                 </Border>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
