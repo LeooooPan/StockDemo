@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5BZU+MLWWnfAYeZjoeKEcIqPYJ3DdkZJzoPh9y/D1nbfUqgLsoZDnk/M9uO3JNQrCj5K5ksm4OmDA8MXew0wBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LaoPa\\.nuget\\packages\\microsoft.sdk.expression.blend\\1.0.0\\microsoft.sdk.expression.blend.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

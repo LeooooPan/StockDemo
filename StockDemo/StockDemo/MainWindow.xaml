@@ -1,0 +1,14 @@
+﻿<Window x:Class="StockDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:view="clr-namespace:StockDemo.Views"
+        xmlns:local="clr-namespace:StockDemo"
+        mc:Ignorable="d"
+        Title="StockDemo" 
+        d:DesignHeight="500" d:DesignWidth="600" MinWidth="600" MaxWidth="600" MinHeight="700" MaxHeight="700">
+    <Grid Background="Black">
+        <view:StockListView/>
+    </Grid>
+</Window>

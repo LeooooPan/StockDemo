@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+        "projectName": "StockDemo",
+        "projectPath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+        "packagesPath": "C:\\Users\\LaoPa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\LaoPa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net481"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net481": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net481": {
+          "dependencies": {
+            "Microsoft.SDK.Expression.Blend": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

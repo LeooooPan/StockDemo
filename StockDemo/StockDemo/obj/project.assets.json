@@ -1,0 +1,188 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8.1": {
+      "Microsoft.SDK.Expression.Blend/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win": {
+      "Microsoft.SDK.Expression.Blend/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-x64": {
+      "Microsoft.SDK.Expression.Blend/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8.1/win-x86": {
+      "Microsoft.SDK.Expression.Blend/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Expression.Controls.dll": {},
+          "lib/net45/Microsoft.Expression.Drawing.dll": {},
+          "lib/net45/Microsoft.Expression.Effects.dll": {},
+          "lib/net45/Microsoft.Expression.Interactions.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll": {},
+          "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll": {},
+          "lib/net45/Microsoft.SDK.Expression.Blend.dll": {},
+          "lib/net45/System.Windows.Interactivity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.SDK.Expression.Blend/1.0.0": {
+      "sha512": "SzhrOZ8Nn24+XuY69rT+0TvdZH6irbSvRbvY4Lwtnohn3nZfczq4O1uFQkfVIGD+0ReMkNnfHKR7T3DmGVz4zw==",
+      "type": "package",
+      "path": "microsoft.sdk.expression.blend/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.Expression.Controls.dll",
+        "lib/net45/Microsoft.Expression.Drawing.dll",
+        "lib/net45/Microsoft.Expression.Effects.dll",
+        "lib/net45/Microsoft.Expression.Interactions.dll",
+        "lib/net45/Microsoft.Expression.Prototyping.Interactivity.dll",
+        "lib/net45/Microsoft.Expression.Prototyping.SketchControls.dll",
+        "lib/net45/Microsoft.SDK.Expression.Blend.dll",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "microsoft.sdk.expression.blend.1.0.0.nupkg.sha512",
+        "microsoft.sdk.expression.blend.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8.1": [
+      "Microsoft.SDK.Expression.Blend >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LaoPa\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+      "projectName": "StockDemo",
+      "projectPath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\StockDemo.csproj",
+      "packagesPath": "C:\\Users\\LaoPa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LaoPa\\source\\repos\\StockDemo\\StockDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LaoPa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net481"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net481": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net481": {
+        "dependencies": {
+          "Microsoft.SDK.Expression.Blend": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

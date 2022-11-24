@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="StockDemo.Views.StockListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:StockDemo.ViewModels"
+             xmlns:local="clr-namespace:StockDemo.Views"           
+             xmlns:converter="clr-namespace:StockDemo.Converters"
+             xmlns:behavior="clr-namespace:StockDemo.Behaviors"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="600" >
+    <UserControl.DataContext>
+        <vm:StockListViewModel/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/StockDemo;component/Style/UIStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <converter:ForegroundColorConverter x:Key="colorconverter"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <!--顯示資料-->
+        <ListView FontSize="18"  
+                  HorizontalContentAlignment="Stretch" 
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                  ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                  ItemsSource="{Binding StockSource}" 
+                  Background="Black"
+                  Foreground="White" Grid.Row="0"
+                  Style="{StaticResource ListViewStyle}" Margin="20,10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="140">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border Height="40" Width="140" Margin="-10,0,0,0" BorderThickness="0,0,0,1" BorderBrush="#7FFFFFFF">
+                                    <TextBlock Margin="40,10,20,0" Text="{Binding Name}" Foreground="#FFD1B074"/>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                        <TextBlock Foreground="White" Text="股票"/>
+                    </GridViewColumn>
+                    <GridViewColumn Width="180">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border Height="40" Width="200" Margin="-10,0,0,0" BorderThickness="0,0,0,1" BorderBrush="#7FFFFFFF">
+                                    <TextBlock Margin="70,10,0,0" Text="{Binding TradingVolume}" Foreground ="{Binding UpDownValue , Converter={StaticResource colorconverter}}"/>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                        <TextBlock Foreground="White" Text="成交量"/>
+                    </GridViewColumn>
+                    <GridViewColumn Width="180">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border Height="40" Width="200" Margin="-10,0,0,0" BorderThickness="0,0,0,1" BorderBrush="#7FFFFFFF">
+                                    <TextBlock Margin="70,10,0,0" Text="{Binding UpDownValue}" Foreground ="{Binding UpDownValue , Converter={StaticResource colorconverter}}"/>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                        <TextBlock Foreground="White" Text="漲跌"/>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Label Content="更新頻率" Foreground="White" Grid.Row="1" Margin="115,10,10,0" FontSize="20"/>
+
+        <!--頻率輸入 可用Enter-->
+        <Border BorderThickness="1" Grid.Row="1" Margin="215,10,170,20" CornerRadius="5" BorderBrush="Black" Background="#FFCCE7FD">
+            <TextBox x:Name="inputdelaytime" Text="1000" InputMethod.IsInputMethodEnabled="False"  Background="Transparent" BorderBrush="Transparent" SelectionTextBrush="Transparent" HorizontalContentAlignment="Right" FontSize="20" Padding="0,5,10,0">
+                <i:Interaction.Behaviors>
+                    <behavior:SelectAllTextOnFocusBehavior/>
+                    <behavior:LimitZeroToNineBehavior/>
+                </i:Interaction.Behaviors>
+                <TextBox.InputBindings>
+                    <KeyBinding Key="Enter" Command="{Binding AcceptChangeDelayTime}" CommandParameter="{Binding ElementName=inputdelaytime,Path=Text}"/>
+                </TextBox.InputBindings>
+            </TextBox>
+        </Border>
+
+        <!--確定-->
+        <Button  Command="{Binding AcceptChangeDelayTime}" CommandParameter="{Binding ElementName=inputdelaytime,Path=Text}" Style="{StaticResource CheckButton}"  Grid.Row="1" Margin="435,10,50,20" Content="確定" Background="#FF3E9C87"/>
+    </Grid>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}"/>
+        </i:EventTrigger>
+        <i:EventTrigger EventName="Unloaded">
+            <i:InvokeCommandAction Command="{Binding UnloadedCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+</UserControl>
